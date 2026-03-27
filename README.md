@@ -22,6 +22,7 @@ The pipeline requires the following software and packages:
 
 - Install Python 3 from https://www.python.org  
 
+### Execution ###
 - Clone this repository:
 
  ```bash
