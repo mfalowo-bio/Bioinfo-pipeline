@@ -24,3 +24,17 @@ gc_content = gc_count / total_bases * 100
 print(f"Total reads: {total_reads}")
 print(f"Average read length: {avg_read_length:.2f}")
 print(f"GC content: {gc_content:.2f}%")
+
+
+
+def filter_reads_by_length(reads, min_length=50):
+    """
+    Remove reads shorter than a minimum length threshold.
+    """
+    filtered_reads = []
+
+    for read in reads:
+        if len(read) >= min_length:
+            filtered_reads.append(read)
+
+    return filtered_reads
