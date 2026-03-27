@@ -1,0 +1,1 @@
+"""A modular, reproducible bioinformatics pipeline for processing and analyzing sequencing data."""
