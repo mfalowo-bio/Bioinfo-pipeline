@@ -44,3 +44,6 @@ The pipeline requires the following software and packages:
 
 &#x20;  git clone https://github.com/<your-username>/Bioinfo-pipeline.git
 
+- To execute code
+python src/pipeline.py
+
