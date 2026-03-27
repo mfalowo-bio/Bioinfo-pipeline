@@ -38,3 +38,7 @@ def filter_reads_by_length(reads, min_length=50):
             filtered_reads.append(read)
 
     return filtered_reads
+
+def run_length_filtering(reads, length_threshold):
+    print(f"Filtering reads shorter than {length_threshold} bases")
+    return filter_reads_by_length(reads, min_length=length_threshold)
